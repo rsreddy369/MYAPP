@@ -29,6 +29,10 @@ import { CreateUserComponent } from './create-user/create-user.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { VehicleDetailsComponent } from './vehicle-details/vehicle-details.component';
 import { BankAccountDetailsComponent } from './bank-account-details/bank-account-details.component';
+import { ParentComponent } from './parent/parent.component';
+import { ProductComponent } from './product/product.component';
+import { NavComponent } from './nav/nav.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -59,7 +63,11 @@ const routes: Routes = [
     {path: 'vehicle-details/:id', component:VehicleDetailsComponent},
     {path:'account-details/:id', component:BankAccountDetailsComponent},
     {path:'edit-vehicle/:id' , component: CreateVehicleComponent},
-    {path:'edit-account/:id', component:CreateBankaccountsComponent}
+    {path:'edit-account/:id', component:CreateBankaccountsComponent},
+    {path:'parent',component:ParentComponent},
+    {path:'product',component:ProductComponent},
+    {path:'nav',component:NavComponent},
+    {path:'cart',component:CartComponent},
   ]},
   {path:'', component: LoginComponent},
   {path:'**', component:PagenotfoundComponent}
