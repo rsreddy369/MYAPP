@@ -1,0 +1,9 @@
+<h1>Display</h1>
+<br>
+<div *ngFor="let display of displaydata">
+<h3 >Task:{{display.task}}</h3>
+<h3>Time:{{display.time}}</h3>
+<button class="btn btn-success" (click)="view(display)">View</button>
+<button class="btn btn-warning"(click)="edit(display)">Edit</button>
+<button class="btn btn-danger" (click)="delete(display)">Delete</button>
+</div>

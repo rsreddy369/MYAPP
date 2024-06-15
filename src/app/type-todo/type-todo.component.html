@@ -1,0 +1,15 @@
+<h1>Type</h1>
+<br>
+<form [formGroup]="typetodo">
+    <label for="">Task:</label>
+    <input type="text" formControlName="task">
+    <br><br>
+    <br>
+    <label for="">Time:</label>
+    <input type="datetime-local" formControlName="time"><button class="btn btn-success">Submit</button>
+
+    <br>
+    <br><br>
+    <button class="btn btn-primary" (click)="create()">Create</button>
+    <button class="btn btn-warning"  (click)="reset()">Reset</button>
+</form>

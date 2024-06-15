@@ -1,0 +1,36 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+}
+.left{
+    height: 90%;
+    width: 32%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.middle{
+    height: 90%;
+    width: 32%;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.right{
+    height: 90%;
+    width: 32%;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 2px solid black;
+}

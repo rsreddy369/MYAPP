@@ -39,6 +39,11 @@ import { ChildComponent } from './child/child.component';
 import { ProductComponent } from './product/product.component';
 import { NavComponent } from './nav/nav.component';
 import { CartComponent } from './cart/cart.component';
+import { AboutUsModule } from './about-us/about-us.module';
+import { TodoComponent } from './todo/todo.component';
+import { TypeTodoComponent } from './type-todo/type-todo.component';
+import { ViewTodoComponent } from './view-todo/view-todo.component';
+import { DisplayTodoComponent } from './display-todo/display-todo.component';
 
 @NgModule({
   declarations: [
@@ -77,13 +82,18 @@ import { CartComponent } from './cart/cart.component';
     ProductComponent,
     NavComponent,
     CartComponent,
+    TodoComponent,
+    TypeTodoComponent,
+    ViewTodoComponent,
+    DisplayTodoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AboutUsModule
 
   ],
   providers: [],
