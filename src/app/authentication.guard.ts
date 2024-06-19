@@ -11,15 +11,15 @@ export class AuthenticationGuard implements CanActivate {
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     // return true;
 
-    if(sessionStorage.getItem('my-app-token')){
-      return true;
-    }
-    else{
-      return false;
-    }
+      if(sessionStorage.getItem('my-app-token')){
+        return true;
+      }
+      else{
+        return false;
+      }
 
 
-  }
+    }
   
   
 }

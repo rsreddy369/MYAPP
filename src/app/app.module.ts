@@ -44,6 +44,10 @@ import { TodoComponent } from './todo/todo.component';
 import { TypeTodoComponent } from './type-todo/type-todo.component';
 import { ViewTodoComponent } from './view-todo/view-todo.component';
 import { DisplayTodoComponent } from './display-todo/display-todo.component';
+import { CalcComponent } from './calc/calc.component';
+import { InputComponent } from './input/input.component';
+import { ResultComponent } from './result/result.component';
+import { OperationsComponent } from './operations/operations.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +90,10 @@ import { DisplayTodoComponent } from './display-todo/display-todo.component';
     TypeTodoComponent,
     ViewTodoComponent,
     DisplayTodoComponent,
+    CalcComponent,
+    InputComponent,
+    ResultComponent,
+    OperationsComponent,
   ],
   imports: [
     BrowserModule,

@@ -36,6 +36,7 @@ import { CartComponent } from './cart/cart.component';
 import { AboutCompanyComponent } from './about-us/about-company/about-company.component';
 import { AboutCeoComponent } from './about-us/about-ceo/about-ceo.component';
 import { TodoComponent } from './todo/todo.component';
+import { CalcComponent } from './calc/calc.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -78,6 +79,7 @@ const routes: Routes = [
       loadChildren: () => import('./payments/payments.module').then(m => m.PaymentsModule)
     },
     {path:'todo',component:TodoComponent},
+    {path:'calc',component:CalcComponent},
 
   ]},
   {path:'', component: LoginComponent},

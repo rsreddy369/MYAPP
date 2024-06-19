@@ -1,0 +1,36 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left{
+    height: 70%;
+    width: 40%;
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+
+}
+.right{
+    height: 70%;
+    width: 40%;
+    background-color: chartreuse;
+    border: 3px solid grey;
+    border-radius: 10px;
+
+}
+.le1{
+    height: 40%;
+    width: 100%;
+    background-color: burlywood;
+    margin-top: 200px;
+}
